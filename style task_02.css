@@ -1,0 +1,87 @@
+
+.bdy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 76.3deg,  rgb(29, 57, 82) 12.6%, rgb(59, 118, 170) 82.8% );
+}
+
+h3{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.main{
+    height: 26rem;
+    width: 20rem;
+    background-image: radial-gradient( circle 732px at -23.9% -25.1%,  rgb(76, 94, 227) 6.1%, rgb(195, 41, 110) 100.2% );
+    border-radius: 1rem;
+}
+
+.time{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 1rem 0 1rem;
+    border: 1px solid rgb(75, 83, 171);
+    border-radius: 1rem;
+}
+
+.min, .sec, .msec{
+    font-size: 3.5rem;
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+
+.btns{
+    margin: 1.3rem 1rem 0 1rem;
+    
+    display: flex;
+}
+
+.start, .stop, .pause{
+    padding: 0.9rem 1.3rem 1rem 1.3rem;
+    margin: 0.8rem 0.5rem 0.8rem 1rem;
+    border-radius: 6rem;
+    background-color: rgb(174, 56, 109);
+    
+}
+
+.clearbtn{
+    margin: 0.7rem 0.1rem 0.7rem 0.1rem;
+    border-radius: 6rem;
+    background-color: rgb(174, 56, 109);
+}
+
+
+ul>li{
+    margin: 0.6rem 0 1rem 0;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+
+.laptime{
+    display: none;
+}
+
+.lap-item{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.number{
+    color: #cbc8c8;
+}
+.time-stamp{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.des{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.5rem;
+}
